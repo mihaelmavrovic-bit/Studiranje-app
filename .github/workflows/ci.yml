@@ -35,6 +35,9 @@ jobs:
           extensions: mbstring, pdo_mysql
           coverage: none
 
+      - name: Install dependencies
+        run: composer install --no-interaction --prefer-dist
+
       - name: Copy env
         run: cp .env.example .env
 
