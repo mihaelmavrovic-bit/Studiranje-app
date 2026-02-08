@@ -15,9 +15,9 @@
 
       <nav class="nav">
         <a href="{{ url('/') }}" class="nav-link">Početna</a>
-        <a href="{{ url('/link1') }}" class="nav-link">Link1</a>
-        <a href="{{ url('/link2') }}" class="nav-link">Link 2</a>
-        <a href="{{ url('/link3') }}" class="nav-link">Link 3</a>
+        <a href="{{ url('/link1') }}" class="nav-link">Studenti</a>
+        <a href="{{ url('/link2') }}" class="nav-link">Fakulteti</a>
+        <a href="{{ url('/link3') }}" class="nav-link">O projektu</a>
       </nav>
     </div>
   </header>
