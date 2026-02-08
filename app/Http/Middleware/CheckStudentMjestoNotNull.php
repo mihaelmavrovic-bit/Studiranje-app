@@ -11,7 +11,7 @@ class CheckStudentMjestoNotNull
     public function handle(Request $request, Closure $next): Response
     {
         // Radi za rute koje imaju {student} (route model binding)
-        $student = $request->route('studenti');
+        $student = $request->route('student');
 
         if ($student && $student->mjesto === null) {
             return response('Prikaz studenta nije dozvoljen jer mjesto stanovanja nije definirano.', 403);
